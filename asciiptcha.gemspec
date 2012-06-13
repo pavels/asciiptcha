@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{asciiptcha}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Pavel Sorejs"]
@@ -14,16 +14,28 @@ Gem::Specification.new do |s|
   s.email = %q{sorejs@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "asciiptcha.gemspec",
     "lib/asciiptcha.rb",
+    "lib/asciiptcha/configuration.rb",
+    "lib/asciiptcha/controller_helpers.rb",
+    "lib/asciiptcha/encryption_key_not_set.rb",
+    "lib/asciiptcha/operations.rb",
+    "lib/asciiptcha/railtie.rb",
+    "lib/asciiptcha/view_helpers.rb",
+    "lib/initializers/asciiptcha.rb",
+    "lib/tasks/INIT.readme",
+    "lib/tasks/tasks.rake",
+    "locales/cs.yml",
     "test/helper.rb",
     "test/test_asciiptcha.rb"
   ]
