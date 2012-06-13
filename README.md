@@ -28,13 +28,13 @@ Quick Start
 
 In your view, inside the form add following code: 
 
-   <%= asciiptcha_generate %>
+    <%= asciiptcha_generate %>
 
 In the controller you can then write something like this:
 
-   if asciiptcha_verify
-      # Do something for successfull verification
-   end
+    if asciiptcha_verify
+       # Do something for successfull verification
+    end
 
 Usage
 -----
