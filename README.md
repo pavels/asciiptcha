@@ -41,7 +41,7 @@ Usage
    
 To change default ids of capctha fields, use following:
 
-    <%= asciiptcha_generate('some_different_id' %>
+    <%= asciiptcha_generate('some_different_id') %>
 
 and
 
