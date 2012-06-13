@@ -16,7 +16,7 @@ module Asciiptcha
 			rescue
 				return false
 			end
-			if decrypted_code == params[field_id]
+			if decrypted_code.downcase == params[field_id].downcase
 				return true
 			end
 			return false
