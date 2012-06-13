@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "asciiptcha"
   gem.homepage = "http://github.com/pavels/asciiptcha"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Generates and verifies ascii art captcha."
+  gem.description = "Generates and verifies ascii art captcha."
   gem.email = "sorejs@gmail.com"
   gem.authors = ["Pavel Sorejs"]
   # dependencies defined in Gemfile
@@ -48,6 +48,5 @@ Rake::RDocTask.new do |rdoc|
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "asciiptcha #{version}"
-  rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
