@@ -50,7 +50,7 @@ and
     end
 
 This way, you can have more than one capctha on single site.
-        
+    
 
 Contributing to asciiptcha
 -----
