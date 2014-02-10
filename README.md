@@ -1,6 +1,8 @@
 asciiptcha
 ==========
 
+[![Gem Version](https://badge.fury.io/rb/asciiptcha.png)](http://badge.fury.io/rb/asciiptcha)
+
 Small gem to generate and verify captcha based on ASCII Art in Rails3
 
 Requirements
